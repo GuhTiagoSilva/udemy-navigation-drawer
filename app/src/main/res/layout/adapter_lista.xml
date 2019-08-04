@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgLogoAtm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Estamos sediados em Paços de Ferreira e operamos no mercado desde 2005, abrangendo toda a área do território nacional. Somos constituídos por uma equipa jovem e dinâmica, altamente qualificada e multidisciplinar, para dar uma resposta rápida e eficaz a todas as necessidades das empresas, e dessa forma assegurar uma prestação de serviços de qualidade, satisfazendo as expetativas dos nossos clientes." />
+
+    <TextView
+        android:id="@+id/textFaleConosco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Fale Conosco"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Contact Us" />
+
+    <TextView
+        android:id="@+id/textVisitarWebSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Visit our website" />
+
+    <TextView
+        android:id="@+id/textFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Like us on Facebook" />
+
+    <TextView
+        android:id="@+id/textTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Follow us on twitter" />
+
+    <TextView
+        android:id="@+id/textYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Watch us on Youtube" />
+
+    <TextView
+        android:id="@+id/textPlayStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Rate us on Play Store" />
+
+    <TextView
+        android:id="@+id/textGitHub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Fork us on GitHub" />
+
+    <TextView
+        android:id="@+id/textInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Follow us on Instagram" />
+</LinearLayout>
